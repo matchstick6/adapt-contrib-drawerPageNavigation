@@ -29,7 +29,8 @@ define([
         var drawerObject = {
             title: drawerPageNavigationData.title,
             description: drawerPageNavigationData.description,
-            className: 'pageNavigation-drawer'
+            className: 'pageNavigation-drawer',
+            drawerOrder: drawerPageNavigationData._drawerOrder || 0
         };
         // Syntax for adding a Drawer item
         // Adapt.drawer.addItem([object], [callbackEvent]);

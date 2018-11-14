@@ -37,6 +37,15 @@
                   "validators": ["required"],
                   "translatable": true
                 },
+                "_drawerOrder": {
+                  "type": "number",
+                  "required": false,
+                  "title": "Drawer order",
+                  "inputType": "Number",
+                  "default": 0,
+                  "help": "The order in which this extension should appear as a drawer item",
+                  "validators": ["number"]
+                },
                 "description": {
                   "type": "string",
                   "default":"Click here to navigate this course",
